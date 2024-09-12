@@ -1,0 +1,303 @@
+:root {
+    --primary :#4CAF4F;
+    --bgcolor :#FFFFFF;
+    --silver:#F5F7FA;
+    --grey:#717171;
+    --colorFooter :#263238;
+}
+.Navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--bgcolor);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 5px 0;
+    z-index: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0 20% 0 5%;
+}
+
+.nexcent {
+    font-weight: bold;
+    font-size: 20pt;
+}
+.links {
+    display: flex;
+    padding: 0 6% 0 1%;
+}
+.link  {
+    padding: 0 5px;
+}
+.button button {
+    background-color:var(--primary) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    width: 150px;
+    height: 45px;
+    border-radius: 3px;
+}
+.home {
+    margin: 70px auto;
+}
+.hero {
+    background-color: var(--silver);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+.Frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.lessons {
+    font-size: 52px;
+    font-weight: 500;
+}
+.span {
+    font-size: 52px;
+    font-weight: 500;
+    color: var(--primary);
+}
+.unlockdescription, .where {
+    font-size: 16px;
+    color: var(--grey);
+}
+.unlockText button,
+.hero button {
+    background-color: var(--primary);
+    padding: 10px 3%;
+    color: var(--bgcolor);
+    border-radius: 3px;
+    margin: 20px 0;
+}
+.dot  {
+    position: absolute;
+    bottom: 200px;
+    right: 50%;
+}
+.communityUpdates,
+.clients {
+    padding: 20px 0;
+}
+.communityUpdatesText,
+.clientText{
+    text-align: center;
+}
+.sectionTitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+.boxDescription ,.description{
+    font-size: 13px;
+    color: var(--grey);
+}
+.clientsLogos {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-around;
+}
+.communityBody{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.manager {
+    width: 250px;
+    height: 235px;
+    padding: 10px 5px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(171, 190, 209, 0.2);
+}
+.unlockTitle , .managerTitle {
+    font-size: 25px;
+    font-weight: bold; 
+}
+.manager .description {
+    font-size: 14px;
+}
+.unlock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 6%;
+    margin: 20px 0;
+}
+.unlockText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.achievements {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--silver);
+    padding: 45px 6%;
+}
+.sectionHeading {
+    width: 70%;
+}
+.counts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.count {
+    display: flex;
+    margin: 0 20px;
+    width: 30%;
+}
+.icon {
+    margin-right: 15px;
+}
+.number {
+    font-size: 20px;
+    font-weight: bold;
+}
+.info {
+    color: var(--grey);
+}
+.customer {
+    background-color: var(--silver);
+    padding: 45px 6%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+.customerImage img {
+    width: 250px;
+    height: 250px;
+}
+.customerText {
+    width: 60%;
+}
+.customerDescription {
+    font-size: 16px;
+    color: var(--grey);
+}
+.customerTitle {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 700;
+}
+.customerIcons {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons .icon {
+    margin-right: 40px;
+}
+.customerButton button {
+    color: var(--primary);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+}
+.communityUpdatesBody {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 6%;
+}
+.carte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carte .box {
+    width: 220px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: var(--bgcolor);
+    box-shadow: 8px 8px 8px rgba(171, 190, 209, 0.2);
+    margin-top: -80px;
+    padding: 5px 10px;
+}
+.boxButton {
+    color: var(--primary);
+    padding: 5px 0;
+}
+.headFooter {
+    background-color: var(--silver);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+}
+.headText {
+    font-size: 45px;
+    font-weight: 800;
+}
+.bodyFooter {
+    background-color: var(--colorFooter);
+    padding: 40px 6%;
+    display: flex;
+    color: var(--bgcolor);
+    justify-content: space-evenly;
+    align-items: start;
+}
+.copyright {
+    font-size: 11px;
+    margin: 20px 0;
+}
+.copyright p {
+    margin: 10px 0;
+}
+.socialLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+.linksFooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.col {
+    margin: 0 20px;
+    width: 150px;
+}
+.col .links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.col .link {
+    padding: 7px 0;
+    font-size: 11px;
+}
+.colTitle {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px 0;
+}
