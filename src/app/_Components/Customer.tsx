@@ -4,7 +4,7 @@ const Customer = () => {
   return (
     <div className="customer">
       <div className="customerImage">
-        <Image src="/tesla.png" width={227} height={227} alt=""></Image>
+        <Image src="./tesla.png" width={227} height={227} alt=""></Image>
       </div>
       <div className="customerText">
         <p className="customerDescription">
