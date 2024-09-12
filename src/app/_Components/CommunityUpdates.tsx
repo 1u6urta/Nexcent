@@ -7,9 +7,9 @@ const CommunityUpdates = () => {
         <p className="sectionTitle">Caring is the new marketing</p>
         <p className="description">
           The Nextcent blog is the best place to read about the latest
-          membership insights, trends and more. See who's joining the community,
+          membership insights, trends and more. See who&apos;s joining the community,
           read about how our community are increasing their membership income
-          and lot's more.​
+          and lot&apos;s more.​
         </p>
       </div>
       <div className="communityUpdatesBody">
