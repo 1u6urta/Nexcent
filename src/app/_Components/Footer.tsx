@@ -1,4 +1,3 @@
-import {Input} from "@nextui-org/input";
 
 const Footer = () => {
   return (
